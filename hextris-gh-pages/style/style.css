@@ -302,6 +302,7 @@ button:focus {
 	-webkit-transform:translate(-50%, 0%);
 	-moz-transform:translate(-50%, 0%);
 	-ms-transform:translate(-50%, 0%);
+	abcd
 }
 
 @media screen and (orientation:landscape) {
