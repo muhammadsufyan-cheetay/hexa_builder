@@ -17,7 +17,6 @@ function renderText(x, y, fontSize, color, text, font) {
 	ctx.restore();
 }
 
-
 function drawScoreboard() {
 	if (scoreOpacity < 1) {
 		scoreOpacity += 0.01;

@@ -325,8 +325,8 @@ function isInfringing(hex) {
 		var subTotal = 0;
 		for (var j = 0; j < hex.blocks[i].length; j++) {
 			subTotal += hex.blocks[i][j].deleted;
-		
 		}
+
 		if (hex.blocks[i].length - subTotal > settings.rows) {
 			return true;
 		}
@@ -340,7 +340,6 @@ function checkGameOver() {
 			$.get('http://54.183.184.126/' + String(score))
 			if (highscores.indexOf(score) == -1) {
 				highscores.push(score);
-				
 			}
 			writeHighScores();
 			gameOverDisplay();
